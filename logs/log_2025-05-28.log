@@ -1,0 +1,8 @@
+2025-05-28 10:56:18,244 - INFO - Successfully read the YAML file
+2025-05-28 10:56:18,244 - INFO - Data Ingestion started with jr_hybrid_anime_recommender
+2025-05-28 10:56:18,244 - INFO - Starting Data Ingestion Process
+2025-05-28 10:56:24,967 - INFO - Downloading smaller files : anime.csv
+2025-05-28 10:56:28,520 - INFO - Downloading smaller files : anime_with_synopsis.csv
+2025-05-28 10:59:11,750 - INFO - Large file detected only downloading 5M rows
+2025-05-28 10:59:11,757 - INFO - Data Ingestion completed successfully
+2025-05-28 10:59:11,757 - INFO - Data Ingestion Completed

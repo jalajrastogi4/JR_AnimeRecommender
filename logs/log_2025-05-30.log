@@ -1,0 +1,38 @@
+2025-05-30 11:20:11,562 - INFO - Data Processing Initialized
+2025-05-30 11:20:12,277 - INFO - Data loaded successfully for Data Processing
+2025-05-30 11:20:12,414 - INFO - Filtered user successfully
+2025-05-30 11:20:13,339 - INFO - Scaling done for processing
+2025-05-30 11:20:13,465 - INFO - Encoding Done for user and anime
+2025-05-30 11:20:14,094 - INFO - Data Splitted Successfully
+2025-05-30 11:20:14,101 - INFO - user2user_encoded saved successfully in processed directory
+2025-05-30 11:20:14,110 - INFO - user2user_decoded saved successfully in processed directory
+2025-05-30 11:20:14,130 - INFO - anime2anime_encoded saved successfully in processed directory
+2025-05-30 11:20:14,148 - INFO - anime2anime_decoded saved successfully in processed directory
+2025-05-30 11:20:17,667 - INFO - Saved all training, testing and rating_df Data
+2025-05-30 11:20:21,552 - INFO - DF AND SYNOPSIS_Df saved sucesfullyy...
+2025-05-30 11:20:21,553 - INFO - Data Processing Pipeline Run successfully ....
+2025-05-30 11:56:10,304 - INFO - Model Training Initialized
+2025-05-30 11:56:10,342 - INFO - Data loaded successfully for model training
+2025-05-30 11:56:10,342 - ERROR - [Errno 2] No such file or directory: 'artifacts/processed\\anim2anime_encoded.pkl'
+2025-05-30 11:56:46,420 - INFO - Model Training Initialized
+2025-05-30 11:56:46,451 - INFO - Data loaded successfully for model training
+2025-05-30 11:56:46,467 - INFO - Successfully read the YAML file
+2025-05-30 11:56:46,467 - INFO - Loaded configuration from config.yaml
+2025-05-30 11:56:46,517 - INFO - Model created sucesfully....
+2025-05-30 11:57:09,305 - INFO - Model training Completed.....
+2025-05-30 11:57:09,305 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-30 11:57:09,320 - INFO - Model saved to artifacts/model\model.h5
+2025-05-30 11:57:09,320 - INFO - Extracting weights for user_embedding
+2025-05-30 11:57:09,336 - INFO - Extracting weights for anime_embedding
+2025-05-30 11:57:09,336 - INFO - User and anime weights saved successfully
+2025-05-30 13:44:40,585 - INFO - Model Training & Comet ML Initialized
+2025-05-30 13:44:40,625 - INFO - Data loaded successfully for model training
+2025-05-30 13:44:40,636 - INFO - Successfully read the YAML file
+2025-05-30 13:44:40,636 - INFO - Loaded configuration from config.yaml
+2025-05-30 13:44:41,211 - INFO - Model created sucesfully....
+2025-05-30 13:45:07,567 - INFO - Model training Completed.....
+2025-05-30 13:45:07,568 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-30 13:45:07,616 - INFO - Model saved to artifacts/model\model.h5
+2025-05-30 13:45:07,619 - INFO - Extracting weights for user_embedding
+2025-05-30 13:45:07,628 - INFO - Extracting weights for anime_embedding
+2025-05-30 13:45:07,657 - INFO - User and anime weights saved successfully
